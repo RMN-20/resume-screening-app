@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload Resume</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+
+    <div class="upload-container">
+        <h2>Upload Resume</h2>
+        <p>Upload a PDF resume for ranking and screening.</p>
+
+        <form action="{{ url_for('resume.upload_resume') }}" method="POST" enctype="multipart/form-data">
+            <label class="custom-file-upload">
+                <input type="file" name="resume" accept=".pdf" required>
+                Choose File
+            </label>
+            <button type="submit">Upload</button>
+        </form>
+
+        <a href="{{ url_for('dashboard') }}" class="go-back">
+            ⬅ Go Back to Dashboard
+        </a>
+    </div>
+
+</body>
+</html>

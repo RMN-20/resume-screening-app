@@ -1,0 +1,145 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f9;
+    text-align: center;
+}
+h1, h2 {
+    color: #333;
+}
+button {
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+button:hover {
+    background: #0056b3;
+}
+form {
+    background: white;
+    padding: 20px;
+    width: 50%;
+    margin: auto;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+input, textarea {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background: white;
+}
+table, th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+th {
+    background: #007bff;
+    color: white;
+}
+tr:hover {
+    background: #f1f1f1;
+    transition: 0.3s;
+}
+.upload-container {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    background: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 50px;
+}
+.custom-file-upload {
+    display: inline-block;
+    padding: 10px 15px;
+    border: 2px solid #007bff;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #f8f9fa;
+    transition: all 0.3s;
+}
+.custom-file-upload:hover {
+    background-color: #007bff;
+    color: white;
+}
+button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+button:hover {
+    background-color: #0056b3;
+}
+.go-back {
+    display: inline-block;
+    margin-top: 15px;
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+.go-back:hover {
+    text-decoration: underline;
+}
+.results-container {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    background: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 50px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+thead tr {
+    background-color: #007bff;
+    color: white;
+}
+th, td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+tbody tr:nth-child(even) {
+    background-color: #f8f9fa;
+}
+.go-back {
+    display: inline-block;
+    margin-top: 15px;
+    color: #fff;
+    background-color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: all 0.3s;
+}
+.go-back:hover {
+    background-color: #0056b3;
+}
+

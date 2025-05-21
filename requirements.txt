@@ -1,0 +1,8 @@
+Flask==2.3.2
+cx_Oracle==8.3.0
+spacy==3.6.0
+fuzzywuzzy==0.18.0
+python-Levenshtein==0.21.1
+numpy==1.25.2
+PyPDF2==3.0.1
+pyswarm==0.7.0

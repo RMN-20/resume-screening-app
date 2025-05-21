@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ranking Results</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+
+    <div class="results-container">
+        <h2>Ranked Resumes</h2>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Resume Name</th>
+                    <th>Matching Score</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for resume in resumes %}
+                <tr>
+                    <td>{{ resume[0] }}</td>  
+                    <td>{{ "%.2f"|format(resume[1]) }}%</td>  
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+
+        
+        <a href="{{ url_for('dashboard') }}" class="go-back">
+            ⬅ Back to Dashboard
+        </a>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Ranking</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <h2>Enter Job Description</h2>
+    <form action="{{ url_for('rank.rank_resumes') }}" method="POST">
+        <textarea name="job_description" rows="4" cols="50" required></textarea><br>
+        <button type="submit">Rank Resumes</button>
+    </form>
+</body>
+</html>

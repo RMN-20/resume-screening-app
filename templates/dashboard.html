@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HR Dashboard</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <h2>Welcome, {{ session['hr_user'] }}</h2>
+    <p>Select an option:</p>
+    
+    <a href="{{ url_for('resume.upload_resume') }}">
+        <button>Upload Resume</button>
+    </a>
+    
+    <a href="{{ url_for('rank.rank_resumes') }}">
+        <button>Search for Matching Resumes</button>
+    </a>
+
+    <a href="{{ url_for('auth.logout') }}">
+        <button>Logout</button>
+    </a>
+</body>
+</html>
