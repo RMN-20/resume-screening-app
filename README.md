@@ -37,9 +37,6 @@ The architecture of the SKILLMATCH-AI system automates and optimizes the resume 
 ### Welcome Page
 ![Dashboard](screenshots/welcome.png)
 
-### Login Page
-![Login](screenshots/login.png)
-
 ### Dashboard
 ![Dashboard](screenshots/Dashboard.png)
 
