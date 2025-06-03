@@ -30,5 +30,28 @@ The architecture of the SKILLMATCH-AI system automates and optimizes the resume 
 
 ---
 
+## 🖼️ **Screenshots**
+
+> Below are screenshots of the project:
+
+### Welcome Page
+![Dashboard](screenshots/welcome.png)
+
+### Login Page
+![Login](screenshots/login.png)
+
+### Dashboard
+![Dashboard](screenshots/Dashboard.png)
+
+### Resume Upload
+![Dashboard](screenshots/resume-upload.png)
+
+### Job-description Entry
+![Dashboard](screenshots/job-description.png)
+
+### Ranked resumes
+![Dashboard](screenshots/ranked-resumes.png)
+
+
 
 
