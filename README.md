@@ -1,10 +1,10 @@
-# 🧠 SKILLMATCH-AI: AI-Powered Resume Screening System
+# SKILLMATCH-AI: AI-Powered Resume Screening System
 
 The proposed system, **SKILLMATCH-AI**, is an AI-powered resume screening tool designed to streamline the recruitment process. It extracts data from resumes, processes the content using NLP for skill detection, ranks resumes using fuzzy logic, and optimizes the ranking score with a Genetic Algorithm-inspired technique — Particle Swarm Optimization (PSO). The system is built using **Flask (Python)** for the web interface, **Oracle Database** for data storage, and **spaCy** for natural language processing.
 
 ---
 
-## 🏛️ System Architecture
+## System Architecture
 
 The architecture of the SKILLMATCH-AI system automates and optimizes the resume screening process using artificial intelligence techniques. The workflow is as follows:
 
@@ -19,7 +19,7 @@ The architecture of the SKILLMATCH-AI system automates and optimizes the resume 
 
 ---
 
-## 🚀 Features
+## Features
 
 - Secure HR login with session management
 - Resume upload and PDF parsing with NLP (spaCy)
@@ -30,7 +30,7 @@ The architecture of the SKILLMATCH-AI system automates and optimizes the resume 
 
 ---
 
-## 🖼️ **Screenshots**
+## **Screenshots**
 
 > Below are screenshots of the project:
 
